@@ -1,0 +1,25 @@
+@use 'header';
+@use 'alerts';
+@use 'tables';
+@use 'titles';
+@use 'forms';
+@use 'home';
+@use 'sells';
+
+body {
+    header {
+        height: 7vh;
+    }
+
+    > main {
+        padding: 0 3vw;
+        margin-top: 50px;
+        height: calc(87vh - 50px);
+        color: white;
+    }
+
+    footer {
+        height: 3vh;
+        color: gray;
+    }
+}

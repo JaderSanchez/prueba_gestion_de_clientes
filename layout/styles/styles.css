@@ -1,0 +1,71 @@
+header > nav {
+  padding: 0 40px;
+}
+
+div#alert {
+  position: absolute;
+  width: 100vw;
+  margin-top: 20px;
+}
+
+table a.table-icon {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.title {
+  color: black;
+}
+
+main > form label {
+  color: black;
+}
+
+main#home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+main#home div img {
+  width: 600px;
+}
+
+div#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+div#grid div.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131313;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+div#grid div.product > div span.product-name {
+  color: white;
+  display: block;
+}
+div#grid div.product > div span.product-price {
+  color: gray;
+  display: block;
+}
+
+body header {
+  height: 7vh;
+}
+body > main {
+  padding: 0 3vw;
+  margin-top: 50px;
+  height: calc(87vh - 50px);
+  color: white;
+}
+body footer {
+  height: 3vh;
+  color: gray;
+}
+
+/*# sourceMappingURL=styles.css.map */

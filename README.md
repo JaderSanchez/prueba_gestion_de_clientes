@@ -1,1 +1,5 @@
 # prueba_gestion_de_clientes
+Para ejecutar la aplicación se deben seguir los siguientes pasos:
+1. Se debe contar con un servidor (Apache o Nginx), PHP >= 8 y MySQL >= 5.0, para facilitar esto se recomienda utilizar herramientas como MAMP, LAMP, WAMP o XAMP. También se puede hacer la instalación de cada una de estas herramientas de forma individual, o para los usuarios más avanzados pueden utilizar Docker o un software similar.
+2. Utilizar el archivo que se encuentra en la siguiente ruta: *./settings/prueba_gestion_de_clientes.sql* para restaurar la base de datos, este proceso se puede llevar a cabo mediante una herramienta gráfica como phpMyAdmin o mediante una terminal.
+3. Abre en cualquier navegador la siguiente ruta: http://localhost, por defecto el servidor estará disponible a través del puerto 80, en caso de usar otro puerto añadimos al final : + puerto, por ejemplo con el puerto 8080 sería http://localhost:8080.

@@ -1,0 +1,26 @@
+div#grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+
+    div.product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #131313;
+        padding: 15px 15px;
+        border-radius: 10px;
+
+        > div {
+            span.product-name {
+                color: white;
+                display: block;
+            }
+    
+            span.product-price {
+                color: gray;
+                display: block;
+            }
+        }
+    }
+}
